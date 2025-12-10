@@ -10,7 +10,7 @@ export const TabsPage = () => {
 
   return (
     <>
-      <h1 className="title">Tabs Page</h1>
+      <h1 className="title">Tabs page</h1>
       <TabsBlock currentTabId={tabId} />
 
       <div className="block" data-cy="TabContent">
@@ -23,5 +23,3 @@ export const TabsPage = () => {
     </>
   );
 };
-
-export default TabsPage;
